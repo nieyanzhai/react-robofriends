@@ -1,0 +1,19 @@
+.Robot {
+  width: 300px;
+  height: 300px;
+  margin: 0.8rem;
+  background: rgb(25, 125, 165);
+  border: 1px solid #eee;
+  border-radius: 0.6rem;
+  transition: all 0.3s;
+}
+
+.Robot img {
+  width: 200px;
+  height: 200px;
+}
+
+.Robot:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 3px #ccc;
+}
